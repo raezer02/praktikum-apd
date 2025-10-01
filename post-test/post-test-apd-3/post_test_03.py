@@ -27,10 +27,10 @@ jum_lembur = int(input("Jam lembur: "))
 
 if pilih == 1:
     if hari >= 24 and jam_kerja >= 8 and jum_lembur >= 4:
-        bayar_jam = 25000 
+        bayar_jam = 25000
         bayar_lembur = 15000
     elif hari >= 18 and jam_kerja >= 6 and jum_lembur >= 2:
-        bayar_jam = 20000 
+        bayar_jam = 20000
         bayar_lembur = 10000
     else:
         bayar_jam = 15000
@@ -42,13 +42,13 @@ elif pilih == 2:
     elif hari >= 16 and jam_kerja >= 5 and jum_lembur >= 4:
         bayar_jam = 20000
         bayar_lembur = 15000
-    else: 
+    else:
         bayar_jam = 15000
         bayar_lembur = 12000
 else:
     print("tidak ada jabatan")
 
-total =  ((bayar_jam * jam_kerja) * hari) + (bayar_lembur * jum_lembur)
+total = ((bayar_jam * jam_kerja) * hari) + (bayar_lembur * jum_lembur)
 
 print("\ndata gaji karyawan PT. BOM")
 print("=" * 50)
