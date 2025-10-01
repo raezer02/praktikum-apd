@@ -1,4 +1,4 @@
-print("\npenghitung gaji karyawan PT. BOM")
+print("penghitung gaji karyawan PT. BOM".center(50))
 print("=" * 50)
 
 
