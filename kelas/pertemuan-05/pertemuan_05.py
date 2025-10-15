@@ -9,7 +9,7 @@
 # print(variable)
 
 
-variable = ["Data Science", "Robotics", "Multimedia", "Network"]
-# change to jawa
-variable.insert(2,"JAWA")
-print(variable)
+# variable = ["Data Science", "Robotics", "Multimedia", "Network"]
+# # change to jawa
+# variable.insert(2,"JAWA")
+# print(variable)
