@@ -27,3 +27,5 @@
 #     Mata_Kuliah = "Logika Informatika"
 
 # ignore more code new
+
+# fix
